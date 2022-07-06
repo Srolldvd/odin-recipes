@@ -17,16 +17,26 @@ body {
     text-transform: uppercase;
     border-bottom: 3px solid rgb(90, 78, 8);
     color: rgb(90, 78, 8);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    text-shadow: 0 0 10px  gold;
  }
 
  .container {
     width: 500px;
-    margin: 100px auto;
+    margin: 200px auto;
     text-align: center;
-    border: dashed 2px rgb(90, 78, 8);
+    border: solid 20px rgb(90, 78, 8);
     padding: 50px; 
-    background-color:rgb(214, 207, 164)
- }
+    background-color:rgb(214, 207, 164);
+    box-shadow: 0 40px 0 -20px rgb(90, 78, 8),
+                0 80px 0 -40px rgb(90, 78, 8),
+                0 120px 0 -60px rgb(90, 78, 8),
+                0 -40px 0 -20px rgb(90, 78, 8),
+                0 -80px 0 -40px rgb(90, 78, 8),
+                0 -120px 0 -60px rgb(90, 78, 8);
+            }
 
  .container li {
     margin-bottom: 10px;
@@ -35,4 +45,20 @@ body {
  .container a {
     color: rgb(90, 78, 8);
     font-size: 24px;
+ }
+
+ .odin-logo {
+
+ }
+
+ .left-side {
+    position: absolute;
+    top: 35px;
+    left: 150px;
+ }
+
+ .right-side {
+    position: absolute;
+    top: 35px;
+    right: 150px;
  }
