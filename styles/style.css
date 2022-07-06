@@ -59,9 +59,13 @@ body {
     font-family: 'Skranji', cursive;
     color: rgb(39, 39, 39);
     font-size: 24px;
+    transition: 0.4s;
  }
 
-
+.container a:hover {
+   text-shadow: 0 0 5px gold;
+   text-decoration: underline;
+}
 
   .left-side {
     position: absolute;
@@ -73,4 +77,9 @@ body {
     position: absolute;
     top: 35px;
     right: 350px;
+ }
+
+ h2 {
+   text-align: center;
+   color: gold;
  }
