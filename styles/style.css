@@ -7,21 +7,35 @@
  }
 
 body {
-    background-color: rgb(202, 189, 114);
+    background-image: url(../img/runes-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.runic-font {
+   font-family: 'Skranji', cursive;
 }
 
  h1 {
     font-family: 'Skranji', cursive;
     text-align: center;
-    font-size: 32px;
+    font-size: 48px;
     text-transform: uppercase;
-    border-bottom: 3px solid rgb(90, 78, 8);
-    color: rgb(90, 78, 8);
+    color: gold;
     margin-top: 50px;
     margin-bottom: 50px;
     padding-bottom: 50px;
-    text-shadow: 0 0 10px  gold;
+    text-shadow: 0 0 10px  rgb(255, 242, 166);
+    letter-spacing: 4px;
+ }
+
+ hr {
+   height: 3px;
+   background: linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(255,215,0,1) 50%, rgba(0,0,0,0.3) 100%);
+   border: currentColor;
+   position: relative;
+   top: -85px;
  }
 
  .container {
@@ -35,9 +49,7 @@ body {
     background-size: 800px 700px;
     background-repeat: no-repeat;
     background-position: -25px -20px;
-
-
-            }
+}
 
  .container li {
     margin-bottom: 10px;
@@ -45,7 +57,7 @@ body {
 
  .container a {
     font-family: 'Skranji', cursive;
-    color: rgb(90, 78, 8);
+    color: rgb(39, 39, 39);
     font-size: 24px;
  }
 
@@ -54,11 +66,11 @@ body {
   .left-side {
     position: absolute;
     top: 35px;
-    left: 150px;
+    left: 350px;
  }
 
  .right-side {
     position: absolute;
     top: 35px;
-    right: 150px;
+    right: 350px;
  }
