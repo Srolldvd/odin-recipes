@@ -12,6 +12,7 @@ body {
 }
 
  h1 {
+    font-family: 'Skranji', cursive;
     text-align: center;
     font-size: 32px;
     text-transform: uppercase;
@@ -24,18 +25,18 @@ body {
  }
 
  .container {
-    width: 500px;
-    margin: 200px auto;
+    width: 750px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
     text-align: center;
-    border: solid 20px rgb(90, 78, 8);
     padding: 50px; 
-    background-color:rgb(90, 78, 8);
-    box-shadow: 0 30px 0 -20px rgb(90, 78, 8),
-                0 60px 0 -40px rgb(90, 78, 8),
-                0 90px 0 -60px rgb(90, 78, 8),
-                0 -30px 0 -20px rgb(90, 78, 8),
-                0 -60px 0 -40px rgb(90, 78, 8),
-                0 -90px 0 -60px rgb(90, 78, 8);
+    background-image: url(../img/thors-hammer-removebg-preview.png);
+    background-size: 800px 700px;
+    background-repeat: no-repeat;
+    background-position: -25px -20px;
+
+
             }
 
  .container li {
@@ -43,20 +44,12 @@ body {
  }
 
  .container a {
-    color: gold;
+    font-family: 'Skranji', cursive;
+    color: rgb(90, 78, 8);
     font-size: 24px;
  }
 
-.container::after {
-    content: "";
-    width: 80px;
-    height: 400px;
-    background-color: rgb(90, 78, 8);
-    position: absolute;
-    top: 600px;
-    left: 47.5%;
-    margin-bottom: 100px;
-}
+
 
   .left-side {
     position: absolute;
