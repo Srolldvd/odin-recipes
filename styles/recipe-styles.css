@@ -5,18 +5,13 @@
   text-decoration: none;
   box-sizing: border-box;
 }
-/* 
+
 body {
-  width: 100%;
-  height: 100vh;
-  background-image: url(../img/paper-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: local;
-} */
+  font-family: 'Skranji', cursive, sans-serif;
+}
 
 .container {
-  width: 100%;
+  width: max(360px, 100%);
   height: 100vh;
   background-image: url(../img/paper-bg.jpg);
   background-repeat: no-repeat;
@@ -26,7 +21,6 @@ body {
   text-align: center;
   position: absolute;
   top: 0;
-  font-size: calc(0.7vw + 0.2em);
 }
 
 h1 {
@@ -35,5 +29,19 @@ h1 {
 }
 
 h4 {
-  font-size: calc(0.7vw + 0.2em);
+  font-size: clamp(1em, 2vw, 2em);
+}
+
+img {
+  width: clamp(100px, 20%, 250px);
+  aspect-ratio: 4/3;
+  box-shadow: 0 0 20px;
+  filter: sepia(100%);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+img:hover {
+  filter: none;
+  box-shadow: 0 0 10px;
 }
